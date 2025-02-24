@@ -9,7 +9,7 @@ sudo systemctl start httpd
 sudo rm -rf /var/www/html/*
 
 # clonando projeto web aleatorio
-git clone https://github.com/matheusmanuel/site-simples-com-html-e-css- /var/www/html
+sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css- /var/www/html
 
 # fazendo post para gravar resultado
-curl -X POST -d "nome=Gabriel Torres" https://difusaotech.com.br/lab/aws/index.php
+sudo curl -X POST -d "nome=Gabriel Torres" https://difusaotech.com.br/lab/aws/index.php
