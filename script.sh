@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Instalando e ativando Apache
-yum install -y httpd
+sudo yum install -y httpd
 sudo systemctl enable httpd
 sudo systemctl start httpd
 
 # removendo arquivos da pasta de destino
-rm -rf /var/www/html/*
+sudo rm -rf /var/www/html/*
 
 # clonando projeto web aleatorio
 git clone https://github.com/matheusmanuel/site-simples-com-html-e-css- /var/www/html
